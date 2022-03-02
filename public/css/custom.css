@@ -1,0 +1,145 @@
+.bg-login-image {
+	/*background: url("/img/brand/collectco2.png");*/
+	/*background-position: center;*/
+	/*background-size: cover;*/
+	/*position: relative;*/
+	/*background: #f8ac1e;*/
+	background: #f3f3f3;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border-bottom: 4px solid #ccc;
+  border-bottom-color: #00af9f;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: #d3d3d3;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 15px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  color: white;
+}
+
+.table-smrs
+{
+	background-color: #00af9f;
+	color: white;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #00af9f;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #00af9f;
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+.btn-smrs {
+  color: #fff;
+  background-color: #00af9f;
+  border-color: #28a745;
+}
+
+.btn-smrs:hover {
+  color: #fff;
+  background-color: #205554;
+  border-color: #086a65;
+}
+
+.btn-smrs:focus, .btn-smrs.focus {
+  color: #fff;
+  background-color: #205554;
+  border-color: #086a65;
+  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+}
+
+.btn-smrs.disabled, .btn-smrs:disabled {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-smrs:not(:disabled):not(.disabled):active, .btn-smrs:not(:disabled):not(.disabled).active,
+.show > .btn-smrs.dropdown-toggle {
+  color: #fff;
+  background-color: #086a65;
+  border-color: #1c7430;
+}
+
+.btn-smrs:not(:disabled):not(.disabled):active:focus, .btn-smrs:not(:disabled):not(.disabled).active:focus,
+.show > .btn-smrs.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+}
+
+.circle-login-image {
+	background: url("/img/brand/icon.png");
+	background-position: center;
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -100px 0 0 -100px;
+}
+
+.circle-register-image {
+	background: url("/img/brand/icon.png");
+	background-position: center;
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	align-self: center;
+}
+
+.bg-gradient-orange {
+  background-color: #f8ac1e;
+  background-image: linear-gradient(180deg, #f8ac1e 10%, #d58d07 100%);
+  background-size: cover;
+}
+
+.bg-gradient-grey {
+  background-color: #808183;
+  background-image: linear-gradient(180deg, #808183 10%, #808183 100%);
+  background-size: cover;
+}
+
+.sidebar-icon {
+	background-color: #ffffff;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	border-radius: 50%;
+}
+
+.custom-topbar-menu {
+	display: flex !important;
+}
+
+@media (max-width: 767px) {
+	.custom-topbar-menu {
+		display: none !important;
+	}
+}
